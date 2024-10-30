@@ -1,0 +1,70 @@
+# Системные файлы ОС
+.DS_Store
+Thumbs.db
+
+# Файлы IDE (IntelliJ IDEA, Eclipse и др.)
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.vscode/
+
+# Бинарные и скомпилированные файлы
+/bin/
+build/
+out/
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Логи и временные файлы
+*.log
+*.tmp
+*.pid
+hs_err_pid*
+
+# Конфигурационные файлы и кеши
+.gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/cache/
+.gradle/daemon/
+.gradle/notifications/
+.gradle/vcs-*
+.gradle/wrapper/dists/
+
+# Сторонние библиотеки и зависимости
+/.mvn/
+.mvn/wrapper/maven-wrapper.jar
+!**/gradle-wrapper.jar
+node_modules/
+
+# Настройки окружения и переменные
+.env
+*.env.local
+*.env.*.local
+
+# Файлы отчетов (например, Allure)
+allure-results/
+allure-report/
+
+# Кеш браузеров при автоматизации (Selenide, Selenium и др.)
+selenide-reports/
+screenshots/
+
+# IDE-конфиги запуска и тестов
+*.run/
+
+# Gradle-кеши и логи
+.gradle/
+build/
+
+# IntelliJ IDEA конфиги Java-версий
+**/lib/generated/
+
+# Тестовые артефакты
+test-output/
